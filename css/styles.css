@@ -1,3 +1,59 @@
+html{
+    background-color: rgb(69, 66, 66);
+}
+
+h3{
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+}
+.color-habilidades{
+    background: rgb(33, 33, 33);
+}
+.foto-david{
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+}
+.icon{
+    width: 20px;
+}
+.iconos-list{
+    display: block;
+    flex-direction: row;
+    width: 5px;
+    background: red;
+
+    
+}
+/* Descripcion Portafolio */
+.desc-portf{
+    width: 520px;
+    display: block;
+    padding: 25px;
+}
+/* Links de Redes Sociales */
+.networks{
+    background: white;
+    color: black;
+    font-size: 1.1rem;
+    display: block;
+    width: auto;
+    padding: 15px;
+}
+
+.header-networks{
+    background: #282727;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
 .field {
     margin-bottom: 10px;
   }
@@ -5,7 +61,7 @@
   .field label {
     display: block;
     font-size: 12px;
-    color: #777;
+    color: black;
   }
   
   .field input {
@@ -22,4 +78,82 @@
     background-color: #4460AA;
     color: #fff;
     border: none
+    
   }
+.seccion-habilidades{
+    width: 450px;
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-left: 35%;
+}
+.seccion{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.seccion-pokemon{
+    background: black;
+    color: white;
+    display: block;
+    margin: 15px 400px 30px 250px;
+    text-align: left;
+    padding: 10px 50px 50px 40px;
+    width: 400px;
+}
+.habilidades{
+    display: flex;
+}
+.izquierda, .derecha {
+    flex: 1; 
+    padding: 10px; 
+    background: white;
+    color: black;
+    font-size: 0.8rem;
+} 
+
+
+.proyectos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    color: black;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.card{
+    width: 175%;
+}
+.pokemon-form{
+    display: block;
+}
+.contactme{
+    color: white;
+    text-align: center;
+    background: #000000;
+}
+
+.formulario{
+    background: white;
+    margin: 50px 500px;
+}
+
+.walink{
+    margin: 50px 250px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: left;
+    height: 80px;
+    padding: 10px;
+}
